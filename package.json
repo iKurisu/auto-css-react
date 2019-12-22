@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tsc": "rm -rf dist/ && tsc",
+    "tsc": "rm -rf lib/ && tsc",
     "test": "jest --runInBand"
   },
   "bin": {
-    "auto-css": "./dist/index.js"
+    "auto-css": "./lib/index.js"
   },
   "repository": {
     "type": "git",
