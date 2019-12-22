@@ -30,7 +30,7 @@ auto-css -e scss -f
 
 would generate the following code: 
 
-```typescriptreact
+```typescript
 import React from 'react';
 import "./Nav.scss";
 
