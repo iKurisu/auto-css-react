@@ -2,7 +2,7 @@
 
 Automatically create and import stylesheets for your React components.
 
-# Getting Started
+## Getting Started
 
 Install auto-css using [`npm`](https://www.npmjs.com/):
 
