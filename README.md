@@ -13,5 +13,11 @@ npm install --global auto-css-reac
 ## Usage
 
 ```bash
-auto-css -e scss -f
+auto-css
+```
+
+By default, `auto-css` generates `css` files. You can change the file extension with the `-e` flage:
+
+```bash
+auto-css -e scss
 ```
