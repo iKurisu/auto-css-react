@@ -13,5 +13,5 @@ npm install --global auto-css-reac
 ## Usage
 
 ```bash
-auto-css
+auto-css -e scss -f
 ```
