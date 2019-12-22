@@ -21,3 +21,22 @@ By default, `auto-css` generates `css` files. You can change the file extension 
 ```bash
 auto-css -e scss
 ```
+
+`auto-css` also has the option to auto-fill React components:
+
+```bash
+auto-css -e scss -f
+```
+
+would generate the following code: 
+
+```typescript
+import React from 'react';
+import "./Nav.scss";
+
+const Nav = (): JSX.Element => (
+  <div className="nav"></div>
+);
+
+export default Nav;
+```
